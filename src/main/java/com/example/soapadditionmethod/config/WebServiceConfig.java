@@ -44,6 +44,7 @@ public class WebServiceConfig extends WsConfigurerAdapter {
 //        return new SimpleXsdSchema(new ClassPathResource("xsd/calculator.xsd"));
 //    }
 
+//    comment
 
     @Bean
     public ServletRegistrationBean<MessageDispatcherServlet> messageDispatcherServlet(ApplicationContext applicationContext) {
